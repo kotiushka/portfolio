@@ -1,6 +1,4 @@
 body {
-  /* background: linear-gradient(to right, #667eea, #764ba2); */
-  /* background: radial-gradient(ellipse, rgb(128, 15, 0), rgb(0, 0, 0)); */
   background: radial-gradient(ellipse, #3a0a0a, #000);
   margin: 0;
   height: 100vh;
