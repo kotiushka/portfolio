@@ -1,0 +1,156 @@
+body {
+  /* background: linear-gradient(to right, #667eea, #764ba2); */
+  /* background: radial-gradient(ellipse, rgb(128, 15, 0), rgb(0, 0, 0)); */
+  background: radial-gradient(ellipse, #3a0a0a, #000);
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  height: 1px;
+  border-color: #667eea;
+  background-image: radial-gradient(ellipse, rgb(255, 30, 0), black);
+  border-style: none;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.business-card {
+  box-shadow: 0px 0px 20px black;
+  text-align: center;
+  font-size: 16px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background: rgba(255, 255, 255, 255);
+  width: 300px;
+  padding: 20px;
+  border: 1px;
+  border-color: black;
+  border-radius: 16px;
+  border-style: solid;
+
+  transition:
+    transform 1s ease,
+    border-radius 1s ease,
+    box-shadow 0.4s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 20px crimson;
+  border-radius: 40px;
+}
+
+.profile-image {
+  width: 125px;
+  height: 125px;
+
+  border-radius: 180px;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  max-width: 100%;
+
+  transition:
+    transform ease 0.65s,
+    box-shadow ease 0.65s,
+    border-color ease 0.65s;
+}
+
+.profile-image:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+
+  border-color: brown;
+}
+
+.full-name {
+  color: #2f4f4f;
+  margin-top: 10px;
+  font-size: 20px;
+
+  font-weight: 500;
+}
+
+.designation {
+  color: gray;
+  font-weight: 200;
+  font-size: 14px;
+
+  margin-bottom: 60px;
+}
+
+.card__body {
+  font-size: 14px;
+}
+
+/* .company {
+  color: #b3b1b2;
+} */
+
+.contact-info a {
+  font-size: 14px;
+}
+
+.email-icon,
+.phone-icon {
+  margin-right: 5px;
+}
+
+.email-icon {
+  align-items: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-link,
+.social-media a {
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-link:hover,
+.social-media a:hover {
+  background: radial-gradient(ellipse, rgb(255, 30, 0), black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.social-media {
+  margin-top: 60px;
+}
+
+.social-media h3 {
+  font-size: 20px;
+}
+
+.social-media a {
+  width: 30%;
+  display: inline-block;
+}
