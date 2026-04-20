@@ -61,7 +61,7 @@ body {
 
   max-width: 1024px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 
   border: 1px solid rgba(120, 113, 108, 0.35);
   background: rgba(11, 7, 7, 0.75);
@@ -506,6 +506,7 @@ body {
   }
 
   .header {
+    margin-bottom: 32px;
     padding: 10px 12px;
   }
 
