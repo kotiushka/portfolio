@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -245,7 +246,12 @@
             <article class="project">
               <div class="project__header">
                 <p class="project__number">01</p>
-                <a class="project__link" href="#" aria-label="Open project">
+                <a
+                  class="project__link"
+                  href="https://github.com/kotiushka/portfolio"
+                  target="_blank"
+                  aria-label="Open project"
+                >
                   <svg
                     width="16"
                     height="16"
@@ -288,15 +294,20 @@
                 impressions.
               </p>
               <div class="project__tools">
-                <span class="project__tool">React</span>
-                <span class="project__tool">TypeScript</span>
-                <span class="project__tool">Tailwind</span>
+                <span class="project__tool">HTML</span>
+                <span class="project__tool">CSS</span>
+                <span class="project__tool">Python</span>
               </div>
             </article>
             <article class="project">
               <div class="project__header">
                 <p class="project__number">02</p>
-                <a class="project__link" href="#" aria-label="Open project">
+                <a
+                  class="project__link"
+                  href="https://github.com/kotiushka/AzeibarjanWarBOT"
+                  target="_blank"
+                  aria-label="Open project"
+                >
                   <svg
                     width="16"
                     height="16"
@@ -330,17 +341,19 @@
                   <path d="m6 8-4 4 4 4"></path>
                   <path d="m14.5 4-5 16"></path>
                 </svg>
-                product interface
+                telegram bot
               </p>
-              <h3 class="project__title">Task Flow Dashboard</h3>
+              <h3 class="project__title">Azei MMORPG</h3>
               <p class="project__description">
-                A focused workspace for managing tasks, priorities, and progress
-                with polished empty states and responsive layouts.
+                A massively multiplayer Telegram MMORPG designed for a large
+                number of concurrent players. Includes real-time PvP, clan wars,
+                locations, NPCs, and AI opponents. Built over 4 months with
+                emphasis on scalability.
               </p>
               <div class="project__tools">
-                <span class="project__tool">Node.js</span>
-                <span class="project__tool">PostgreSQL</span>
-                <span class="project__tool">REST API</span>
+                <span class="project__tool">Python</span>
+                <span class="project__tool">Aiogram / Aiohttp</span>
+                <span class="project__tool">SQLite</span>
               </div>
             </article>
             <article class="project">
@@ -380,24 +393,31 @@
                   <path d="m6 8-4 4 4 4"></path>
                   <path d="m14.5 4-5 16"></path>
                 </svg>
-                frontend engineering
+                android app
               </p>
-              <h3 class="project__title">Commerce Admin UI</h3>
+              <h3 class="project__title">NotesPro</h3>
               <p class="project__description">
-                An operational interface for product, order, and customer
-                workflows designed around speed, clarity, and low-friction
-                actions.
+                A clean and functional note-taking application built with the
+                MVP architectural pattern. Supports creating, editing, and
+                managing personal notes with a simple, intuitive interface
+                focused on usability and code maintainability.
               </p>
               <div class="project__tools">
-                <span class="project__tool">React Query</span>
-                <span class="project__tool">Forms</span>
-                <span class="project__tool">UX</span>
+                <span class="project__tool">Java</span>
+                <span class="project__tool">Android</span>
+                <span class="project__tool">Room</span>
+                <span class="project__tool">M. Design</span>
               </div>
             </article>
             <article class="project">
               <div class="project__header">
                 <p class="project__number">04</p>
-                <a class="project__link" href="#" aria-label="Open project">
+                <a
+                  class="project__link"
+                  href="https://play.google.com/store/apps/details?id=de.nexusag.nexnation.app&hl=de"
+                  target="_blank"
+                  aria-label="Open project"
+                >
                   <svg
                     width="16"
                     height="16"
@@ -431,23 +451,32 @@
                   <path d="m6 8-4 4 4 4"></path>
                   <path d="m14.5 4-5 16"></path>
                 </svg>
-                full-stack app
+                MOBILE + WEB APP
               </p>
-              <h3 class="project__title">Booking Experience</h3>
+              <h3 class="project__title">NexNation</h3>
               <p class="project__description">
-                A polished reservation flow with availability states, guided
-                decisions, and a responsive interface for mobile-first users.
+                An internal onboarding application developed for Nexus AG /
+                Nexus Swisslab GmbH. Designed and maintained to help new
+                trainees navigate the onboarding process. Features centralized
+                access to important documents, real-time progress tracking,
+                automatic HR status updates, useful contacts, and internal
+                feedback system.
               </p>
               <div class="project__tools">
-                <span class="project__tool">React</span>
-                <span class="project__tool">Api</span>
-                <span class="project__tool">Validation</span>
+                <span class="project__tool">C#</span>
+                <span class="project__tool">ASP.NET</span>
+                <span class="project__tool">PostgreSQL</span>
+                <span class="project__tool">Mobile</span>
               </div>
             </article>
             <article class="project">
               <div class="project__header">
                 <p class="project__number">05</p>
-                <a class="project__link" href="#" aria-label="Open project">
+                <a
+                  class="project__link project__link--private"
+                  href="#"
+                  aria-label="Open project"
+                >
                   <svg
                     width="16"
                     height="16"
@@ -481,17 +510,27 @@
                   <path d="m6 8-4 4 4 4"></path>
                   <path d="m14.5 4-5 16"></path>
                 </svg>
-                dashboard
+                desktop application
               </p>
-              <h3 class="project__title">Analytics Console</h3>
+              <h3 class="project__title">Lauris Log Analyzer</h3>
               <p class="project__description">
-                A calm reporting surface for tracking key product metrics with
-                clear hierarchy, readable data, and fast scanning.
+                Advanced desktop log analyzer for
+                <span class="tooltip">
+                  Lauris / CheckID
+                  <span class="tooltip__content">
+                    Laboratory Information System (LIS) developed by Nexus
+                    Swisslab GmbH for managing lab data and patient
+                    identification.
+                  </span></span
+                >. Seamlessly opens huge log files with excellent performance,
+                supports 4 log formats, and provides smart filtering by level,
+                time, and custom rules. Features beautiful multi-theme interface
+                designed for heavy daily use.
               </p>
               <div class="project__tools">
-                <span class="project__tool">Charts</span>
-                <span class="project__tool">TypeScript</span>
-                <span class="project__tool">Data UI</span>
+                <span class="project__tool">C#</span>
+                <span class="project__tool">WPF</span>
+                <span class="project__tool">Regex</span>
               </div>
             </article>
             <article class="project">
@@ -565,6 +604,10 @@
           <p class="footer__copy">© 2026 Vladyslav Kotiushka</p>
         </footer>
       </main>
+    </div>
+    <div class="toast" id="toast">
+      Oops, I can't show you this code because it was written specifically for
+      use by company employees.
     </div>
   </body>
 </html>
